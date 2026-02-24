@@ -211,7 +211,7 @@
         /* Project Grid */
         .project-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 40px;
             max-width: 1400px;
             margin: 0 auto;
@@ -455,20 +455,16 @@
     <section class="projects" id="projects">
         <div class="section-header">
             <h2 class="section-title">Projects</h2>
-            <a href="#" class="view-all">View All +5</a>
+            <a href="#" class="view-all">View All +8</a>
         </div>
 
         <div class="project-grid">
             <!-- Project 1 -->
-            <div class="project-card" data-tilt>
-                <iframe 
-                    src="https://www.youtube.com/embed/DBsg906cY1E" 
-                    class="project-image" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen
-                    style="width: 100%; height: 100%; object-fit: cover;">
-                </iframe>
+            <div class="project-card" data-tilt onclick="window.open('project-1.html', '_blank')" style="cursor: pointer;">
+                <video class="project-image" autoplay muted loop playsinline>
+                    <source src="videos/project-1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
                 <div class="project-info">
                     <div class="project-category">UGC • 2025</div>
                     <h3 class="project-title">AI-Powered UGC Campaign</h3>
@@ -517,6 +513,76 @@
                     <div class="project-details">
                         <p class="project-description">
                             High-impact video content designed to captivate and convert
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card" data-tilt>
+                <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=1000&fit=crop" alt="Project 4" class="project-image">
+                <div class="project-info">
+                    <div class="project-category">USE CASE • 2025</div>
+                    <h3 class="project-title">Project Title 4</h3>
+                    <div class="project-details">
+                        <p class="project-description">
+                            Description for project 4 - placeholder
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card" data-tilt>
+                <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=1000&fit=crop" alt="Project 5" class="project-image">
+                <div class="project-info">
+                    <div class="project-category">USE CASE • 2025</div>
+                    <h3 class="project-title">Project Title 5</h3>
+                    <div class="project-details">
+                        <p class="project-description">
+                            Description for project 5 - placeholder
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card" data-tilt>
+                <img src="https://images.unsplash.com/photo-1551818255-e6e10975bc17?w=800&h=1000&fit=crop" alt="Project 6" class="project-image">
+                <div class="project-info">
+                    <div class="project-category">USE CASE • 2025</div>
+                    <h3 class="project-title">Project Title 6</h3>
+                    <div class="project-details">
+                        <p class="project-description">
+                            Description for project 6 - placeholder
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 7 -->
+            <div class="project-card" data-tilt>
+                <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=1000&fit=crop" alt="Project 7" class="project-image">
+                <div class="project-info">
+                    <div class="project-category">USE CASE • 2025</div>
+                    <h3 class="project-title">Project Title 7</h3>
+                    <div class="project-details">
+                        <p class="project-description">
+                            Description for project 7 - placeholder
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 8 -->
+            <div class="project-card" data-tilt>
+                <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&h=1000&fit=crop" alt="Project 8" class="project-image">
+                <div class="project-info">
+                    <div class="project-category">USE CASE • 2025</div>
+                    <h3 class="project-title">Project Title 8</h3>
+                    <div class="project-details">
+                        <p class="project-description">
+                            Description for project 8 - placeholder
                         </p>
                     </div>
                 </div>
